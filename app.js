@@ -12,3 +12,8 @@ function scoreT2() {
   totalT2++
   document.getElementById('totalT2').innerHTML = totalT2;
 }
+
+function reset() {
+  document.getElementById('totalT1').innerHTML = 0;
+  document.getElementById('totalT2').innerHTML = 0;
+}
