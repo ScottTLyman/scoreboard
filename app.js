@@ -1,3 +1,12 @@
+
+function teamchoice() {
+  if (Math.random() > 0.5) {
+    scoreT1()
+  } else {
+    scoreT2()
+  }
+}
+
 let totalT1 = 0;
 let totalT2 = 0;
 
@@ -16,4 +25,6 @@ function scoreT2() {
 function reset() {
   document.getElementById('totalT1').innerHTML = 0;
   document.getElementById('totalT2').innerHTML = 0;
+  totalT1 = 0
+  totalT2 = 0
 }
